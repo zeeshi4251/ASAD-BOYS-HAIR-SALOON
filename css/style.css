@@ -1,0 +1,410 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/* body { */
+/* z-index: 10; */
+/* background-image: url(../img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* Navbar CSS START */
+.navbar {
+    /* border: 2px solid; */
+    position: fixed;
+    /* margin-right: 0px; */
+    background: #6371768c;
+}
+
+.webLogo {
+    height: 60px;
+    width: 60px;
+    /* padding: 3px; */
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 440px;
+    margin-bottom: 8px;
+}
+
+.container ul {
+    display: flex;
+    width: 100vw;
+    justify-content: end;
+    margin-top: 20px;
+}
+
+.container ul li {
+    list-style: none;
+    /* margin: 4px 50px 4px 0px; */
+    /* margin: 10px 0px 10px 110px; */
+
+}
+
+.container ul li a:hover {
+    /* background-color: black; */
+    color: aqua;
+    transition-delay: .1s ease;
+}
+
+.container ul li a {
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius: 20px;
+    color: white;
+    /* border: 1px solid; */
+    font-size: 35px;
+    /* margin-right: 60px; */
+    margin: 0px 81px 0px 0px;
+}
+
+/* Navbar CSS END */
+
+/* Main CONTENT CSS START */
+.main_container {
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    /* z-index: -10; */
+    /* width: 100vw; */
+}
+
+.main_container h1 {
+    margin-bottom: 7px;
+    font-size: 37px;
+    color: white;
+    /* margin: 0px 550px; */
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    /* border: 2px solid; */
+}
+
+.main h1 span {
+    color: aquamarine;
+}
+
+.main_container p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin: 0px 600px;
+    width: 40%;
+    color: white;
+}
+
+.btn {
+    margin-top: 40px;
+    margin-right: 9px;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn a:hover {
+    color: white;
+
+}
+
+/* Main CONTENT CSS END */
+
+
+
+/* Services Container CSS START */
+.service_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10vh; */
+}
+
+.service_heading h2 {
+    font-size: 40px;
+    border-radius: 35px;
+    font-weight: 100;
+    border: 2px solid;
+    margin: 40px;
+    padding: 20px 550px;
+    text-transform: uppercase;
+}
+
+.service_heading h2:hover {
+    color: goldenrod;
+    font-weight: 100;
+}
+
+.service_container {
+    display: flex;
+    height: 100vh;
+    border: 2px solid;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../img/5.jpg);
+    background-position:center ;
+    background-size: cover ;
+    background-repeat:no-repeat ;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 600px;
+    background-color: rgb(218, 224, 229);
+    background-image: url(../img/6.jpg);
+
+}
+
+.box:hover {
+    box-shadow: 5px 5px 4px white;
+    transform: translatey(-20px);
+}
+
+.box img {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 310px;
+    border-radius: 50%;
+    margin: 30px 0px;
+    /* margin: auto; */
+
+}
+
+.box h3 {
+    margin: 12px;
+    font-size: 35px;
+    color: white;
+}
+
+.box h3 span {
+    font-weight: 100;
+    color: aqua;
+}
+
+.box p {
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+.box p:hover {
+    border: 1px outset gray;
+    padding: 0px 10px;
+    background-color: white;
+    border-radius: 65px;
+    color: black;
+
+}
+
+/* Services Container CSS END */
+
+/* About Container CSS START */
+.about_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.about_heading:hover {
+    color: goldenrod;
+}
+.about_heading h2 {
+    font-weight: 100;
+    font-size: 40px;
+    border-radius: 35px;
+    border: 2px solid;
+    margin: 40px;
+    padding: 20px 550px;
+}
+.about_container {
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    width: 80%;
+    margin: auto;
+}
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    /* border: 3px inset; */
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.card h3 {
+    color: goldenrod;
+    font-weight: 200;
+    margin: 3px;
+}
+.card p a{
+    color: goldenrod;
+    margin: 8px;
+    text-decoration: none;
+}
+.card p:hover{
+    background-color: black;
+    padding: 8px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+}
+/* About Container CSS END */
+
+/* Contect Container CSS START */
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+.con h2 {
+    font-weight: 100;
+    font-size: 40px;
+    border-radius: 35px;
+    border: 2px solid;
+    margin: 40px;
+    padding: 20px 550px;
+}
+.con h2:hover{
+    color: goldenrod;
+}
+
+
+.contect_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    height: 40vh;
+    border: 2px solid;
+}
+.contect_container h1 {
+color: goldenrod;
+margin: 5px;
+ }
+.contect_container h1 span {
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    margin: 2px;
+    padding: 1px;
+}
+
+.contect_container img {
+    margin: 5px;
+    width: 200px;
+}
+.content {
+border: 2px solid;
+display: flex;
+flex-direction: column;
+height: 55vh;
+}
+.media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 130px;
+    border: 2px solid;
+    background-color: black;
+    color: white;
+}
+.media img {
+    width: 50px;
+    margin: 10px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+.media p {
+    margin: 10px;
+
+}
+.media p a {
+    color: white;
+    text-decoration: none;
+}
+.address {
+    /* border: 2px solid; */
+    display: flex;
+    margin-top: 110px;
+    align-items: center;
+    height: 10vh;
+    /* color: goldenrod; */
+}
+.add {
+    /* border: 2px solid; */
+    margin-left: 20px;
+    width: 10%;
+}
+.addr p {
+    font-size: 20px;
+    color: goldenrod;
+}
+/* Contect Container CSS END */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+.scrollTo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px;
+    position: fixed;
+    /* width: ; */
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    /* font-size: 13px; */
+    border: 2px solid white;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.scrollTo:hover{
+    background-color: white;
+    color: goldenrod;
+}
